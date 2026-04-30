@@ -11,7 +11,7 @@ repository               : "bohanLi-98/bohanli.github.io"
 
 # Author (sidebar)
 author:
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Bohan Li"
   bio              : "Ph.D. candidate working on generative models for spatial omics resolution enhancement."
   location         : "Beijing, China"
