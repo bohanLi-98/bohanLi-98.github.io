@@ -27,7 +27,7 @@ Publications and Manuscripts
 
 **Primary Research**
 
-1. **Bohan Li**†, Yue Deng<sup>*</sup>, Qionghai Dai<sup>*</sup>, et al.  
+1. **Bohan Li**<sup>†</sup>, Yue Deng<sup>*</sup>, Qionghai Dai<sup>*</sup>, et al.
    *Tissue characterization at an enhanced resolution across spatial omics platforms with deep generative model*  
    **Nature Communications**, 15:6541 (2024)  
    [https://doi.org/10.1038/s41467-024-50837-5](https://doi.org/10.1038/s41467-024-50837-5)
