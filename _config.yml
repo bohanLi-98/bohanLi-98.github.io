@@ -13,7 +13,7 @@ repository               : "bohanLi-98/bohanli.github.io"
 
 # Author
 author:
-  avatar           : "./profile.png"
+  avatar           : "profile.png"
   name             : "Bohan Li"
   pronouns         :
   bio              : "Ph.D. candidate working on generative models for spatial omics resolution enhancement."
