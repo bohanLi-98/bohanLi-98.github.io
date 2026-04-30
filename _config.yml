@@ -27,8 +27,8 @@ author:
   name             : "Bohan Li"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. candidate working on generative modeling for spatial omics resolution enhancement."
-  location         : "Beijing, China | Beihang University"
-  # employer         : "Beihang University"
+  location         : "Beijing, China"
+  employer         : "Beihang University"
   uri              : # URL
   email            : "PohanLi@buaa.edu.cn" 
 
