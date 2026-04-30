@@ -1,97 +1,151 @@
 # Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Bohan Li"
 title_separator          : "-"
 name                     : &name "Bohan Li"
-description              : &description "Generative modeling for spatial omics and continuous biological systems"
-url                      : "https://bohanli-98.github.io"
-baseurl                  : "/bohanli.github.io"
+description              : &description "Generative modeling for spatial omics and continuous biological systems"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : "https://bohanLi-98.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "/bohanli.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "bohanLi-98/bohanli.github.io"
 
-# Author
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "profile.png"
+  # Biographic information
+  avatar           : "profile.jpg"
   name             : "Bohan Li"
-  pronouns         :
+  pronouns         : # example: "she/her"  
   bio              : "Ph.D. candidate working on generative models for spatial omics resolution enhancement."
   location         : "Beijing, China"
   employer         : "Beihang University"
-  uri              :
-  email            : "PohanLi@buaa.edu.cn"
+  uri              : # URL
+  email            : "PohanLi@buaa.edu.cn" 
 
-  academia         :
-  arxiv            :
+  # Academic websites
+  academia         : # URL
+  arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=CeBWGhQAAAAJ"
-  inspire-hep      :
-  impactstory      :
-  orcid            :
-  semantic         :
-  ssrn             :
-  pubmed           :
-  researchgate     :
-  scopus           :
-  zotero           :
+  inspire-hep      : # URL
+  impactstory      : # URL
+  orcid            : "https://orcid.org/yourorcidurl"
+  semantic         : # URL
+  ssrn             : # URL
+  pubmed           : # URL
+  researchgate     : # URL
+  scopus           : # URL
+  zotero           : # URL
 
-  bitbucket        :
-  codepen          :
-  dribbble         :
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
   github           : "bohanLi-98"
-  kaggle           :
-  stackoverflow    :
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
-  artstation       :
-  bluesky          :
-  facebook         :
-  flickr           :
-  foursquare       :
-  goodreads        :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  mastodon         :
-  medium           :
-  pinterest        :
-  soundcloud       :
-  steam            :
-  telegram         :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  wikipedia        :
-  xing             :
-  youtube          :
-  zhihu            :
+  # Social media
+  artstation       : # Username
+  bluesky          : # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
 
-# Publication Category
+# Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'
+    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :
-breadcrumbs              : false
+teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled"
-talkmap_link             : false
-
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
-  provider               :
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            :
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
 
-analytics:
-  provider               : false
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
 
-# Social
+atom_feed:
+  hide                   : false
+  path                   :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :
+og_description           :
+
 social:
   type                   : Person
   name                   : "Bohan Li"
@@ -99,65 +153,14 @@ social:
     - "https://scholar.google.com/citations?user=CeBWGhQAAAAJ"
     - "https://github.com/bohanLi-98"
 
-# Reading Files
+# Analytics
+analytics:
+  provider               : "false"
+  google:
+    tracking_id          :
+
+# Reading Files（保持不变）
 include:
   - .htaccess
   - _pages
   - files
-
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - node_modules
-
-keep_files:
-  - .git
-  - .svn
-
-encoding: "utf-8"
-
-# Markdown
-markdown: kramdown
-highlighter: rouge
-
-# Collections（保留原逻辑）
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-# Output
-permalink: /:categories/:title/
-timezone: Asia/Shanghai
-
-# Plugins（必须保留这些，否则样式会炸）
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
