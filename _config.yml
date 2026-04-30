@@ -7,9 +7,9 @@ title                    : "Bohan Li"
 title_separator          : "-"
 name                     : &name "Bohan Li"
 description              : &description "Generative modeling for spatial omics and continuous biological systems"
-url                      : "https://bohanli-98.github.io"
-baseurl                  : "/bohanli.github.io"
-repository               : "bohanli-98/bohanli.github.io"
+url                      : "https://bohanLi-98.github.io"
+baseurl                  : "/bohanLi.github.io"
+repository               : "bohanLi-98/bohanLi-98.github.io"
 
 # Site Author
 author:
