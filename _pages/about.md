@@ -8,33 +8,27 @@ I am a Ph.D. candidate at Beihang University, working on **generative modeling f
 
 My research focuses on **resolution enhancement and continuous modeling of biological systems**, aiming to reconstruct high-resolution molecular landscapes from sparse and partially observed data.
 
----
-
 ## Research Focus
 
 - Generative modeling for spatial omics  
 - Continuous representations of biological systems  
 - Multi-modal integration under partial observations  
 
----
-
 ## Selected Publications
 
-**Nature Communications, 2024**  
+**Nature Communications (2024)**  
 Tissue characterization at an enhanced resolution across spatial omics platforms with deep generative model  
-https://doi.org/10.1038/s41467-024-50837-5
+https://doi.org/10.1038/s41467-024-50837-5  
 
-**Cell, 2026**  
+**Cell (2026)**  
 Whole-body molecular and cellular mapping of the laboratory mouse  
-https://doi.org/10.1016/j.cell.2026.03.006
+https://doi.org/10.1016/j.cell.2026.03.006  
 
 **Under review at Nature Methods**  
 Reconstructing isotropic-resolution spatial transcriptomics from serial sections by modeling tissue continuity  
-https://doi.org/10.1101/2025.08.15.670472
+https://doi.org/10.1101/2025.08.15.670472  
 
 [→ Full publication list](./publications/)
-
----
 
 ## Research Projects
 
@@ -48,8 +42,6 @@ A generative framework modeling spatial omics measurements as **aggregated obser
 
 [GitHub](https://github.com/deng-ai-lab/soScope)
 
----
-
 ### isoST — Depth-wise resolution enhancement
 
 A continuous generative framework based on **stochastic differential equations** to model gene expression along tissue depth.
@@ -59,8 +51,6 @@ A continuous generative framework based on **stochastic differential equations**
 - Isotropic-resolution inference  
 
 [GitHub](https://github.com/deng-ai-lab/isoST)
-
----
 
 ### LABEL — Cross-scale annotation transfer
 
@@ -72,15 +62,11 @@ Framework for transferring molecular annotations to histological images.
 
 [GitHub](https://github.com/chevrierlab/WMST-paper)
 
----
-
 ## Academic Service
 
 - Invited reviewer for *Briefings in Bioinformatics*
 
----
-
 ## Links
 
 - [Google Scholar](https://scholar.google.com/citations?user=CeBWGhQAAAAJ)  
-- [GitHub](https://github.com/)  
+- [GitHub](https://github.com/bohanLi-98)
