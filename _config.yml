@@ -23,7 +23,7 @@ repository               : "bohanLi-98/bohanli.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Bohan Li"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. candidate working on generative models for spatial omics resolution enhancement."
