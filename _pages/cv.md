@@ -27,19 +27,19 @@ Publications and Manuscripts
 
 **Primary Research**
 
-1. **Bohan Li**†, Yue Deng*, Qionghai Dai*, et al.  
+1. **Bohan Li**†, Yue Deng<sup>*</sup>, Qionghai Dai<sup>*</sup>, et al.  
    *Tissue characterization at an enhanced resolution across spatial omics platforms with deep generative model*  
    **Nature Communications**, 15:6541 (2024)  
    [https://doi.org/10.1038/s41467-024-50837-5](https://doi.org/10.1038/s41467-024-50837-5)
 
-2. **Bohan Li**, Feng Bao*, Yue Deng*, et al.  
+2. **Bohan Li**, Feng Bao<sup>*</sup>, Yue Deng<sup>*</sup>, et al.  
    *Reconstructing isotropic-resolution spatial transcriptomics from serial sections by modeling tissue continuity*  
    Under review at Nature Methods  
    [https://doi.org/10.1101/2025.08.15.670472](https://doi.org/10.1101/2025.08.15.670472)
 
 **Collaborative Research**
 
-3. M. Clevenger†, **Bohan Li**†, Feng Bao*, N. Chevrier*, et al.  
+3. M. Clevenger<sup>†</sup>, **Bohan Li**<sup>†</sup>, Feng Bao<sup>*</sup>, N. Chevrier<sup>*</sup>, et al.  
    *Whole-body molecular and cellular mapping of the laboratory mouse*  
    **Cell** (2026)  
    [https://doi.org/10.1016/j.cell.2026.03.006](https://doi.org/10.1016/j.cell.2026.03.006)
