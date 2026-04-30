@@ -7,13 +7,13 @@ title                    : "Bohan Li"
 title_separator          : "-"
 name                     : &name "Bohan Li"
 description              : &description "Generative modeling for spatial omics and continuous biological systems"
-url                      : "https://bohanLi-98.github.io"
+url                      : "https://bohanli-98.github.io"
 baseurl                  : "/bohanli.github.io"
 repository               : "bohanLi-98/bohanli.github.io"
 
 # Author
 author:
-  avatar           : "profile.jpg"
+  avatar           : "./profile.jpg"
   name             : "Bohan Li"
   pronouns         :
   bio              : "Ph.D. candidate working on generative models for spatial omics resolution enhancement."
