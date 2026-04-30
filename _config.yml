@@ -5,9 +5,9 @@ title                    : "Bohan Li"
 title_separator          : "-"
 name                     : &name "Bohan Li"
 description              : &description "Generative modeling for spatial omics and continuous biological systems"
-url                      : "https://你的GitHub用户名.github.io"
+url                      : "https://bohanLi-98.github.io"
 baseurl                  : ""
-repository               : "你的GitHub用户名/你的GitHub用户名.github.io"
+repository               : "bohanLi-98/bohanli.github.io"
 
 # Author (sidebar)
 author:
