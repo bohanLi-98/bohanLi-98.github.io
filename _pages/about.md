@@ -20,28 +20,19 @@ My research focuses on **resolution enhancement and continuous modeling of biolo
 
 ## Selected Publications
 
-**Bohan Li†**, et al., **Yue Deng***, **Qionghai Dai***  
-*Tissue characterization at an enhanced resolution across spatial omics platforms with deep generative model*  
 **Nature Communications, 2024**  
-[https://doi.org/10.1038/s41467-024-50837-5](https://doi.org/10.1038/s41467-024-50837-5)
+Tissue characterization at an enhanced resolution across spatial omics platforms with deep generative model  
+https://doi.org/10.1038/s41467-024-50837-5
 
----
-
-**Bohan Li**, et al., **Feng Bao***, **Yue Deng***  
-*Reconstructing isotropic-resolution spatial transcriptomics from serial sections by modeling tissue continuity*  
-**Under review at Nature Methods**  
-[https://doi.org/10.1101/2025.08.15.670472](https://doi.org/10.1101/2025.08.15.670472)
-
----
-
-M. Clevenger†, et al., **Bohan Li†**, **N. Chevrier***  
-*Whole-body molecular and cellular mapping of the laboratory mouse*  
 **Cell, 2026**  
-[https://doi.org/10.1016/j.cell.2026.03.006](https://doi.org/10.1016/j.cell.2026.03.006)
+Whole-body molecular and cellular mapping of the laboratory mouse  
+https://doi.org/10.1016/j.cell.2026.03.006
 
----
+**Under review at Nature Methods**  
+Reconstructing isotropic-resolution spatial transcriptomics from serial sections by modeling tissue continuity  
+https://doi.org/10.1101/2025.08.15.670472
 
-† Co-first author  * Corresponding author
+[→ Full publication list](./publications/)
 
 ---
 
