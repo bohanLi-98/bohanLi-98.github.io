@@ -1,3 +1,5 @@
+# Welcome to Jekyll!
+
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
@@ -5,60 +7,232 @@ title                    : "Bohan Li"
 title_separator          : "-"
 name                     : &name "Bohan Li"
 description              : &description "Generative modeling for spatial omics and continuous biological systems"
-url                      : "https://bohanLi-98.github.io"
-baseurl                  : ""
-repository               : "bohanLi-98/bohanli.github.io"
+url                      : "https://bohanli-98.github.io"
+baseurl                  : "/bohanli.github.io"
+repository               : "bohanli-98/bohanli.github.io"
 
-# Author (sidebar)
+# Site Author
 author:
   avatar           : "profile.jpg"
   name             : "Bohan Li"
+  pronouns         :
   bio              : "Ph.D. candidate working on generative models for spatial omics resolution enhancement."
   location         : "Beijing, China"
   employer         : "Beihang University"
+  uri              :
   email            : "PohanLi@buaa.edu.cn"
 
+  academia         :
+  arxiv            :
   googlescholar    : "https://scholar.google.com/citations?user=CeBWGhQAAAAJ"
-  github           : "bohanLi-98"
+  inspire-hep      :
+  impactstory      :
+  orcid            :
+  semantic         :
+  ssrn             :
+  pubmed           :
+  researchgate     :
+  scopus           :
+  zotero           :
 
-# Publications category (keep simple)
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  github           : "bohanli-98"
+  kaggle           :
+  stackoverflow    :
+
+  artstation       :
+  bluesky          :
+  facebook         :
+  flickr           :
+  foursquare       :
+  goodreads        :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  mastodon         :
+  medium           :
+  pinterest        :
+  soundcloud       :
+  steam            :
+  telegram         :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  wikipedia        :
+  xing             :
+  youtube          :
+  zhihu            :
+
+# Publication Category
 publication_category:
+  books:
+    title: 'Books'
   manuscripts:
-    title: 'Publications'
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
 
-# Site behavior
+# Site Settings
+teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled"
 talkmap_link             : false
 
-# Comments OFF（你不需要这个）
 comments:
-  provider               : false
+  provider               :
+  disqus:
+    shortname            :
+  discourse:
+    server               :
+  facebook:
+    appid                :
+    num_posts            :
+    colorscheme          :
 
-# Analytics（先关掉）
-analytics:
-  provider               : false
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
 
-# Social（先别装）
+atom_feed:
+  hide                   : false
+  path                   :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :
+og_description           :
+
 social:
   type                   : Person
   name                   : "Bohan Li"
   links:
     - "https://scholar.google.com/citations?user=CeBWGhQAAAAJ"
+    - "https://github.com/bohanli-98"
 
-# Collections（保留核心）
+# Analytics
+analytics:
+  provider               : false
+  google:
+    tracking_id          :
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+
+keep_files:
+  - .git
+  - .svn
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
 collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /publications/:path/
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
-    permalink: /talks/:path/
+    permalink: /:collection/:path/
 
-# Defaults（保持简洁）
+# Defaults
 defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
   - scope:
       path: ""
       type: pages
@@ -66,11 +240,79 @@ defaults:
       layout: single
       author_profile: true
 
-# Markdown
-markdown: kramdown
-highlighter: rouge
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
-# Plugins（最小必要）
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+
+# Plugins
 plugins:
   - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
